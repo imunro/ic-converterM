@@ -10,7 +10,7 @@ nbins = 3;       % No of time bins/gates
 
 % synthetic data 
 % dimensions here are (x, y , Z, C(hannels) nbins )
-data = uint16(ones(2, 2, 1, 1, nbins)) .* 200;
+data = uint16(ones(4, 5, 1, 1, nbins)) .* 200;
 
 if nbins < 12
    delays = 0:1000:(nbins-1)* 1000;
