@@ -69,6 +69,8 @@ for t = 1:sizet
     
 end
 
+data
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     
 % NB this line has been found to be crucial
@@ -86,7 +88,7 @@ modlo.moduloT.typeDescription = 'TCSPC';
 modlo.moduloT.start = 0;
 
 %
-step = 10;
+step = 1000;
 modlo.moduloT.step = step;
 modlo.moduloT.end = (sizet -1) * step;
 
